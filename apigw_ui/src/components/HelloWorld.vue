@@ -1,6 +1,10 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <div id="header">
+      <router-link to="/top">トップへ</router-link>
+    </div>
+    <router-view></router-view>
+    <h1>{{ god_msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
       <li>
@@ -88,7 +92,9 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your1 Vue.js App'
+      msg: 'Welcome to Your1 Vue.js App',
+      god_msg: '私は神だ',
+      first_msg : 'はじめましてはじまりです。',
     }
   }
 }
