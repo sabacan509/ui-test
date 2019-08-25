@@ -94,7 +94,7 @@ export default {
     return {
       msg: 'Welcome to Your1 Vue.js App',
       god_msg: '私は神だ',
-      first_msg : 'はじめましてはじまりです。',
+      first_msg: 'はじめましてはじまりです。'
     }
   }
 }
